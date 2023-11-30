@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+.App {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    background-image: linear-gradient(120deg, #70908B, #07484A);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.auth,
+.login,
+.register {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+    .auth {
+        padding: 2rem;
+        border: 2px solid #70908B;
+    }
+}
+
+.label {
+    text-align: left;
+    padding: 0.5rem 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    border: none;
+    background-color: #70908B;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover , .link:hover {
+    background-color: #07484A;
+}
+
+.link {
+    background: none;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #70908B;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
