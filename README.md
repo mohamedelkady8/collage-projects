@@ -1,7 +1,7 @@
 # collage-projects
-# [faculty of computers and infromatics suez canal university] Projects Repository
+#  suez canal university (faculty of computers and infromatics) Projects Repository
 
-Welcome to the [faculty of computers and infromatics suez canal university] Projects Repository! This repository contains various projects undertaken during my academic journey at [faculty of computers and infromatics suez canal university].
+Welcome to the suez canal university (faculty of computers and infromatics) Projects Repository! This repository contains various projects undertaken during my academic journey at suez canal university .
 
 ## Table of Contents
 - [Introduction](#introduction)
